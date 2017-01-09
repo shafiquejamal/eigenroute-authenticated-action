@@ -7,7 +7,8 @@ This project borrows heavily (almost entirely) from [JWT Scala](https://github.c
 ### SBT
 
 ```
-libraryDependencies += "com.eigenroute" % "eigenroute-authenticated-action_2.11" % "0.0.1"
+resolvers += "Eigenroute maven repo" at "http://mavenrepo.eigenroute.com/"
+libraryDependencies += "com.eigenroute" % "eigenroute-authenticated-action" % "0.0.1"
 ```
 
 ## Use
