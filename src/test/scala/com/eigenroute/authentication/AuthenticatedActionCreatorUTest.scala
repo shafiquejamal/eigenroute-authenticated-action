@@ -4,8 +4,8 @@ import java.security.spec.ECPrivateKeySpec
 import java.security.{KeyFactory, PrivateKey, Security}
 import java.util.UUID
 
-import com.eigenroute.id.TestUUIDProviderImpl
-import com.eigenroute.time.{TestTimeProviderImpl, TimeProvider}
+import com.eigenroute.util.id.TestUUIDProviderImpl
+import com.eigenroute.util.time.{TestTimeProviderImpl, TimeProvider}
 import org.bouncycastle.jce.ECNamedCurveTable
 import org.bouncycastle.jce.spec.ECNamedCurveSpec
 import org.scalatest.{FlatSpecLike, ShouldMatchers}

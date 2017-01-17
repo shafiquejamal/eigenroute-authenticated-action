@@ -3,7 +3,7 @@ package com.eigenroute.authentication
 import java.security.PublicKey
 import java.util.UUID
 
-import com.eigenroute.time.TimeProvider
+import com.eigenroute.util.time.TimeProvider
 import com.typesafe.config.ConfigFactory
 import org.joda.time.DateTime
 import pdi.jwt.JwtJson
